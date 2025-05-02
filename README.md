@@ -1,10 +1,14 @@
-# MLOps DVC Assignment 2
+# MLOps Assignment 3
 
 This project demonstrates a simple MLOps pipeline using *Apache Airflow* and optionally *DVC* for data versioning.
+Completed by:
+- Waleed Nouman
+- Fasih Ur Rehman
+- Abubakar Siddiqe
 
 ---
 
-## 📦 Setup Instructions (Ubuntu/Linux)
+## 📦 Setup Instructions (Linux)
 
 ### 1. Clone the Repository
 
@@ -12,6 +16,7 @@ This project demonstrates a simple MLOps pipeline using *Apache Airflow* and opt
 git clone https://github.com/fasihrem/mlops-dvc-assignment-2.git
 cd mlops-dvc-assignment-2
 ```
+
 ---
 
 ### 2. Create & Activate Virtual Environment
@@ -20,6 +25,7 @@ cd mlops-dvc-assignment-2
 python3 -m venv venv
 source venv/bin/activate
 ```
+
 ---
 
 ### 3. Install Dependencies
@@ -31,6 +37,7 @@ pip install -r requirements.txt
 ```bash
 pip install apache-airflow==2.7.0 --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.7.0/constraints-3.8.txt"
 ```
+
 ---
 
 ### 4. Set Up Airflow
@@ -45,6 +52,7 @@ airflow db migrate
 ```bash
 export AIRFLOW__CORE__DAGS_FOLDER=$(pwd)/dags
 ```
+
 ---
 
 ### 5. Create Airflow User (first time only)
@@ -58,6 +66,7 @@ airflow users create \
     --email admin@example.com \
     --password admin
 ```
+
 ---
 
 ### 6. Start Airflow Services
