@@ -87,7 +87,7 @@ In your browser go to http://localhost:8081 and log in with the credentials abov
 
 Once the Airflow UI loads:
 
-- You should see train_model_dag in the DAGs list.
+- You should see test.py and weather_data_pipeline.py in the DAGs list.
 - Toggle it "on".
 - Click the ▶️ (Play) button to trigger a run manually.
 
