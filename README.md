@@ -4,7 +4,7 @@ This project demonstrates a simple MLOps pipeline using *Apache Airflow* and opt
 Completed by:
 - Waleed Nouman
 - Fasih Ur Rehman
-- Abubakar Siddiqe
+- Abubakar Siddiq
 
 ---
 
